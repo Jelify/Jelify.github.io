@@ -1,0 +1,71 @@
+body{
+	background-image: url("images/mainbg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: grey;
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+.logo{
+	width: 20em;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.mepic{
+	max-width: 256px;
+	float: left;
+}
+
+.popover-margin-top{
+      margin-top: 150px;
+}
+
+.navbar-space{
+     padding-top: 150px;
+}
+
+.container-fluid{
+	max-width: 100%;
+}
+
+article {
+	background-color: #485b63;
+	box-shadow: 0px 12px 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	font-size: 1.5em;
+}
+
+p{
+	color: white;
+}
+
+nav{
+	background-color: #485b63;
+	box-shadow: 0px 12px 10px;
+	min-width: 520px;
+	font-size: 1.5em;
+}
+
+.col-8{
+	max-width: 100%;
+    flex-basis: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-space{
+        padding-top: 130px;
+    }
+
+    .col-8{
+    	max-width: 90%;
+    	flex-basis: 100%;
+    }
+}
