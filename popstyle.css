@@ -72,14 +72,13 @@ nav{
     flex-basis: 100%;
 }
 
-@media screen and (max-width: 768px) {
-
-    .col-8{
-    	max-width: 100%;
-    	flex-basis: 100%;
-    }
+@media (-webkit-min-device-pixel-ratio: 2) {
 
     article{
-    	font-size: 2em;
+    	font-size: 2.5em;
+    }
+
+    nav{
+    	font-size: 3em;
     }
 }
