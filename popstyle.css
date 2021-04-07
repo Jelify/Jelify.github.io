@@ -15,7 +15,7 @@ body{
 a.anchor {
     display: block;
     position: relative;
-    top: -250px;
+    top: -170px;
     visibility: hidden;
 }
 
@@ -68,14 +68,14 @@ nav{
 }
 
 .col-8{
-	max-width: 100%;
+	max-width: 90%;
     flex-basis: 100%;
 }
 
-@media (min-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .col-8{
-    	max-width: 90%;
+    	max-width: 100%;
     	flex-basis: 100%;
     }
 
