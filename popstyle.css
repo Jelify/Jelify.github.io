@@ -12,6 +12,13 @@ body{
 	width: 20em;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
 h1{
 	color: white;
 	text-align: center;
@@ -20,18 +27,24 @@ h1{
 .mepic{
 	max-width: 256px;
 	float: left;
+	margin: 20px;
+}
+
+.d-block{
+	max-height: 800px;
+	max-width: auto;
 }
 
 .popover-margin-top{
-      margin-top: 150px;
+    margin-top: 150px;
 }
 
 .navbar-space{
-     padding-top: 150px;
+    margin-top: 150px;
 }
 
 .container-fluid{
-	max-width: 100%;
+	max-width: 100%; 
 }
 
 article {
@@ -59,13 +72,14 @@ nav{
     flex-basis: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-    .navbar-space{
-        padding-top: 130px;
-    }
+@media (min-width: 600px) {
 
     .col-8{
     	max-width: 90%;
     	flex-basis: 100%;
+    }
+
+    article{
+    	font-size: 2em;
     }
 }
