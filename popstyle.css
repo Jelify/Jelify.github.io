@@ -13,10 +13,10 @@ body{
 }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -170px;
-    visibility: hidden;
+	display: block;
+   	position: relative;
+   	top: -170px;
+   	visibility: hidden;
 }
 
 h1{
@@ -36,11 +36,11 @@ h1{
 }
 
 .popover-margin-top{
-    margin-top: 150px;
+   	margin-top: 150px;
 }
 
 .navbar-space{
-    margin-top: 150px;
+   	margin-top: 150px;
 }
 
 .container-fluid{
@@ -69,7 +69,7 @@ nav{
 
 .col-8{
 	max-width: 90%;
-    flex-basis: 100%;
+    	flex-basis: 100%;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) {
