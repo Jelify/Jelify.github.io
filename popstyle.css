@@ -24,6 +24,22 @@ h1{
 	text-align: center;
 }
 
+h2{
+	color: white;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+h4{
+	color: white;
+	text-align: center;
+	color:  rgba(255, 255, 255, 0.5);
+}
+
 .mepic{
 	max-width: 256px;
 	float: left;
@@ -36,10 +52,6 @@ h1{
 }
 
 .popover-margin-top{
-   	margin-top: 150px;
-}
-
-.navbar-space{
    	margin-top: 150px;
 }
 
@@ -69,7 +81,7 @@ nav{
 
 .col-8{
 	max-width: 90%;
-    	flex-basis: 100%;
+    flex-basis: 100%;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2) {
